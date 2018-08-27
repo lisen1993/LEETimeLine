@@ -1,0 +1,28 @@
+PODS:
+  - Masonry (1.1.0)
+  - MJExtension (3.0.13)
+  - SVProgressHUD (2.2.5)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
+
+DEPENDENCIES:
+  - Masonry
+  - MJExtension
+  - SVProgressHUD
+  - "UITableView+FDTemplateLayoutCell"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - MJExtension
+    - SVProgressHUD
+    - "UITableView+FDTemplateLayoutCell"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+
+PODFILE CHECKSUM: ca37dc949ddb05e3e82cb5d3e7caea54a29f6187
+
+COCOAPODS: 1.5.3

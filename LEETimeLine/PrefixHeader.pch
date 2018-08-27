@@ -1,0 +1,48 @@
+//
+//  PrefixHeader.pch
+//  LEETimeLine
+//
+//  Created by 西瓜Team on 2018/8/24.
+//  Copyright © 2018年 LEESen. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import "MJExtension.h"
+#import "UITableView+FDTemplateLayoutCell.h"
+#import "SVProgressHUD.h"
+#import "Masonry.h"
+
+
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define GET_IMAGE(imageName)       [UIImage imageNamed:imageName]
+
+#define colorWithRGBA(rgbValue, alphaValue) \
+[UIColor colorWithRed:((float)((0x##rgbValue & 0xFF0000) >> 16)) / 255.0 \
+green:((float)((0x##rgbValue & 0xFF00) >> 8)) / 255.0 \
+blue:((float)(0x##rgbValue & 0xFF)) / 255.0 alpha:alphaValue]
+#define colorWithRGB(rgbValue)  colorWithRGBA(rgbValue, 1.0)
+
+
+CG_INLINE UIWindow *
+MYGetCurrenWindow(){
+    UIWindow *window = [UIApplication sharedApplication].keyWindow;
+    if (window.windowLevel != UIWindowLevelNormal) {
+        for (UIWindow *tempWindow in [UIApplication sharedApplication].windows) {
+            if (tempWindow.windowLevel == UIWindowLevelNormal) {
+                window = tempWindow;
+                break;
+            }
+        }
+    }
+    return window;
+}
+
+CG_INLINE UIViewController *
+MYGetCurrenViewController(){
+    return MYGetCurrenWindow().rootViewController;
+}
+
+#endif /* PrefixHeader_pch */

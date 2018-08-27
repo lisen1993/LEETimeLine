@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F29ACDE212FA46500364827 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F29ACDD212FA46500364827 /* AppDelegate.m */; };
+		2F29ACE4212FA46500364827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F29ACE2212FA46500364827 /* Main.storyboard */; };
+		2F29ACE6212FA46A00364827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F29ACE5212FA46A00364827 /* Assets.xcassets */; };
+		2F29ACE9212FA46A00364827 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F29ACE7212FA46A00364827 /* LaunchScreen.storyboard */; };
+		2F29ACEC212FA46A00364827 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F29ACEB212FA46A00364827 /* main.m */; };
+		2F29ACF6212FA46B00364827 /* LEETimeLineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F29ACF5212FA46B00364827 /* LEETimeLineTests.m */; };
+		2F29AD01212FA46B00364827 /* LEETimeLineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F29AD00212FA46B00364827 /* LEETimeLineUITests.m */; };
+		2FCB3696212FAEE3007ECFA4 /* LEETimeLineTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCB3695212FAEE3007ECFA4 /* LEETimeLineTabVC.m */; };
+		2FCB369B212FB1B3007ECFA4 /* LEETimeLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCB369A212FB1B3007ECFA4 /* LEETimeLineCell.m */; };
+		2FCB369E212FB5A1007ECFA4 /* LEETimeLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCB369D212FB5A1007ECFA4 /* LEETimeLineModel.m */; };
+		2FCB36A0213152FE007ECFA4 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FCB369F213152FE007ECFA4 /* data.json */; };
+		FF0F2E021E6A626221B1D2BA /* libPods-LEETimeLine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FCA90F08ED398F156F7DA74 /* libPods-LEETimeLine.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F29ACF2212FA46B00364827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F29ACD1212FA46500364827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F29ACD8212FA46500364827;
+			remoteInfo = LEETimeLine;
+		};
+		2F29ACFD212FA46B00364827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F29ACD1212FA46500364827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F29ACD8212FA46500364827;
+			remoteInfo = LEETimeLine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16D6EB16742A396715C5E924 /* Pods-LEETimeLine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEETimeLine.release.xcconfig"; path = "Pods/Target Support Files/Pods-LEETimeLine/Pods-LEETimeLine.release.xcconfig"; sourceTree = "<group>"; };
+		2F29ACD9212FA46500364827 /* LEETimeLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEETimeLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F29ACDC212FA46500364827 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F29ACDD212FA46500364827 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F29ACE3212FA46500364827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F29ACE5212FA46A00364827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F29ACE8212FA46A00364827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F29ACEA212FA46A00364827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F29ACEB212FA46A00364827 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F29ACF1212FA46B00364827 /* LEETimeLineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEETimeLineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F29ACF5212FA46B00364827 /* LEETimeLineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEETimeLineTests.m; sourceTree = "<group>"; };
+		2F29ACF7212FA46B00364827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F29ACFC212FA46B00364827 /* LEETimeLineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEETimeLineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F29AD00212FA46B00364827 /* LEETimeLineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEETimeLineUITests.m; sourceTree = "<group>"; };
+		2F29AD02212FA46B00364827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FCB3693212FA82E007ECFA4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2FCB3694212FAEE3007ECFA4 /* LEETimeLineTabVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEETimeLineTabVC.h; sourceTree = "<group>"; };
+		2FCB3695212FAEE3007ECFA4 /* LEETimeLineTabVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEETimeLineTabVC.m; sourceTree = "<group>"; };
+		2FCB3699212FB1B3007ECFA4 /* LEETimeLineCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEETimeLineCell.h; sourceTree = "<group>"; };
+		2FCB369A212FB1B3007ECFA4 /* LEETimeLineCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEETimeLineCell.m; sourceTree = "<group>"; };
+		2FCB369C212FB5A1007ECFA4 /* LEETimeLineModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEETimeLineModel.h; sourceTree = "<group>"; };
+		2FCB369D212FB5A1007ECFA4 /* LEETimeLineModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEETimeLineModel.m; sourceTree = "<group>"; };
+		2FCB369F213152FE007ECFA4 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		5FCA90F08ED398F156F7DA74 /* libPods-LEETimeLine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LEETimeLine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		707096499715BE74157278F0 /* libPods-LEETimeLine-LEETimeLineTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LEETimeLine-LEETimeLineTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9758B17A7F900B2D2918A884 /* libPods-LEETimeLineTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LEETimeLineTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E24C4F9492C621DD7E6E99 /* Pods-LEETimeLine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEETimeLine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LEETimeLine/Pods-LEETimeLine.debug.xcconfig"; sourceTree = "<group>"; };
+		C81803E5BB91A60573C3FB84 /* Pods-LEETimeLineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEETimeLineTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LEETimeLineTests/Pods-LEETimeLineTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F32DF1610688CF8F385F777B /* Pods-LEETimeLineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEETimeLineTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LEETimeLineTests/Pods-LEETimeLineTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F29ACD6212FA46500364827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0F2E021E6A626221B1D2BA /* libPods-LEETimeLine.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F29ACEE212FA46B00364827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F29ACF9212FA46B00364827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F29ACD0212FA46500364827 = {
+			isa = PBXGroup;
+			children = (
+				2F29ACDB212FA46500364827 /* LEETimeLine */,
+				2F29ACF4212FA46B00364827 /* LEETimeLineTests */,
+				2F29ACFF212FA46B00364827 /* LEETimeLineUITests */,
+				2F29ACDA212FA46500364827 /* Products */,
+				EF4E42535766697E453D1D0E /* Pods */,
+				A70CB5CD10FA58A3E83C39FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F29ACDA212FA46500364827 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F29ACD9212FA46500364827 /* LEETimeLine.app */,
+				2F29ACF1212FA46B00364827 /* LEETimeLineTests.xctest */,
+				2F29ACFC212FA46B00364827 /* LEETimeLineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F29ACDB212FA46500364827 /* LEETimeLine */ = {
+			isa = PBXGroup;
+			children = (
+				2F29ACDC212FA46500364827 /* AppDelegate.h */,
+				2F29ACDD212FA46500364827 /* AppDelegate.m */,
+				2FCB3694212FAEE3007ECFA4 /* LEETimeLineTabVC.h */,
+				2FCB3695212FAEE3007ECFA4 /* LEETimeLineTabVC.m */,
+				2FCB3699212FB1B3007ECFA4 /* LEETimeLineCell.h */,
+				2FCB369A212FB1B3007ECFA4 /* LEETimeLineCell.m */,
+				2FCB369C212FB5A1007ECFA4 /* LEETimeLineModel.h */,
+				2FCB369D212FB5A1007ECFA4 /* LEETimeLineModel.m */,
+				2FCB3692212FA7E1007ECFA4 /* System_fiels */,
+			);
+			path = LEETimeLine;
+			sourceTree = "<group>";
+		};
+		2F29ACF4212FA46B00364827 /* LEETimeLineTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F29ACF5212FA46B00364827 /* LEETimeLineTests.m */,
+				2F29ACF7212FA46B00364827 /* Info.plist */,
+			);
+			path = LEETimeLineTests;
+			sourceTree = "<group>";
+		};
+		2F29ACFF212FA46B00364827 /* LEETimeLineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F29AD00212FA46B00364827 /* LEETimeLineUITests.m */,
+				2F29AD02212FA46B00364827 /* Info.plist */,
+			);
+			path = LEETimeLineUITests;
+			sourceTree = "<group>";
+		};
+		2FCB3692212FA7E1007ECFA4 /* System_fiels */ = {
+			isa = PBXGroup;
+			children = (
+				2F29ACE2212FA46500364827 /* Main.storyboard */,
+				2FCB369F213152FE007ECFA4 /* data.json */,
+				2F29ACE5212FA46A00364827 /* Assets.xcassets */,
+				2F29ACE7212FA46A00364827 /* LaunchScreen.storyboard */,
+				2F29ACEA212FA46A00364827 /* Info.plist */,
+				2F29ACEB212FA46A00364827 /* main.m */,
+				2FCB3693212FA82E007ECFA4 /* PrefixHeader.pch */,
+			);
+			name = System_fiels;
+			sourceTree = "<group>";
+		};
+		A70CB5CD10FA58A3E83C39FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FCA90F08ED398F156F7DA74 /* libPods-LEETimeLine.a */,
+				9758B17A7F900B2D2918A884 /* libPods-LEETimeLineTests.a */,
+				707096499715BE74157278F0 /* libPods-LEETimeLine-LEETimeLineTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF4E42535766697E453D1D0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1E24C4F9492C621DD7E6E99 /* Pods-LEETimeLine.debug.xcconfig */,
+				16D6EB16742A396715C5E924 /* Pods-LEETimeLine.release.xcconfig */,
+				C81803E5BB91A60573C3FB84 /* Pods-LEETimeLineTests.debug.xcconfig */,
+				F32DF1610688CF8F385F777B /* Pods-LEETimeLineTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F29ACD8212FA46500364827 /* LEETimeLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F29AD05212FA46B00364827 /* Build configuration list for PBXNativeTarget "LEETimeLine" */;
+			buildPhases = (
+				F9F3F22E4203B25EA54755B9 /* [CP] Check Pods Manifest.lock */,
+				2F29ACD5212FA46500364827 /* Sources */,
+				2F29ACD6212FA46500364827 /* Frameworks */,
+				2F29ACD7212FA46500364827 /* Resources */,
+				0848B9184E47F10CD0315A35 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEETimeLine;
+			productName = LEETimeLine;
+			productReference = 2F29ACD9212FA46500364827 /* LEETimeLine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F29ACF0212FA46B00364827 /* LEETimeLineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F29AD08212FA46B00364827 /* Build configuration list for PBXNativeTarget "LEETimeLineTests" */;
+			buildPhases = (
+				2F29ACED212FA46B00364827 /* Sources */,
+				2F29ACEE212FA46B00364827 /* Frameworks */,
+				2F29ACEF212FA46B00364827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F29ACF3212FA46B00364827 /* PBXTargetDependency */,
+			);
+			name = LEETimeLineTests;
+			productName = LEETimeLineTests;
+			productReference = 2F29ACF1212FA46B00364827 /* LEETimeLineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F29ACFB212FA46B00364827 /* LEETimeLineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F29AD0B212FA46B00364827 /* Build configuration list for PBXNativeTarget "LEETimeLineUITests" */;
+			buildPhases = (
+				2F29ACF8212FA46B00364827 /* Sources */,
+				2F29ACF9212FA46B00364827 /* Frameworks */,
+				2F29ACFA212FA46B00364827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F29ACFE212FA46B00364827 /* PBXTargetDependency */,
+			);
+			name = LEETimeLineUITests;
+			productName = LEETimeLineUITests;
+			productReference = 2F29ACFC212FA46B00364827 /* LEETimeLineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F29ACD1212FA46500364827 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = LEESen;
+				TargetAttributes = {
+					2F29ACD8212FA46500364827 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					2F29ACF0212FA46B00364827 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 2F29ACD8212FA46500364827;
+					};
+					2F29ACFB212FA46B00364827 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 2F29ACD8212FA46500364827;
+					};
+				};
+			};
+			buildConfigurationList = 2F29ACD4212FA46500364827 /* Build configuration list for PBXProject "LEETimeLine" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F29ACD0212FA46500364827;
+			productRefGroup = 2F29ACDA212FA46500364827 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F29ACD8212FA46500364827 /* LEETimeLine */,
+				2F29ACF0212FA46B00364827 /* LEETimeLineTests */,
+				2F29ACFB212FA46B00364827 /* LEETimeLineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F29ACD7212FA46500364827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F29ACE9212FA46A00364827 /* LaunchScreen.storyboard in Resources */,
+				2F29ACE6212FA46A00364827 /* Assets.xcassets in Resources */,
+				2FCB36A0213152FE007ECFA4 /* data.json in Resources */,
+				2F29ACE4212FA46500364827 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F29ACEF212FA46B00364827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F29ACFA212FA46B00364827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0848B9184E47F10CD0315A35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LEETimeLine/Pods-LEETimeLine-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LEETimeLine/Pods-LEETimeLine-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9F3F22E4203B25EA54755B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LEETimeLine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F29ACD5212FA46500364827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FCB369E212FB5A1007ECFA4 /* LEETimeLineModel.m in Sources */,
+				2F29ACEC212FA46A00364827 /* main.m in Sources */,
+				2FCB369B212FB1B3007ECFA4 /* LEETimeLineCell.m in Sources */,
+				2FCB3696212FAEE3007ECFA4 /* LEETimeLineTabVC.m in Sources */,
+				2F29ACDE212FA46500364827 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F29ACED212FA46B00364827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F29ACF6212FA46B00364827 /* LEETimeLineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F29ACF8212FA46B00364827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F29AD01212FA46B00364827 /* LEETimeLineUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F29ACF3212FA46B00364827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F29ACD8212FA46500364827 /* LEETimeLine */;
+			targetProxy = 2F29ACF2212FA46B00364827 /* PBXContainerItemProxy */;
+		};
+		2F29ACFE212FA46B00364827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F29ACD8212FA46500364827 /* LEETimeLine */;
+			targetProxy = 2F29ACFD212FA46B00364827 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F29ACE2212FA46500364827 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F29ACE3212FA46500364827 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F29ACE7212FA46A00364827 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F29ACE8212FA46A00364827 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F29AD03212FA46B00364827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F29AD04212FA46B00364827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F29AD06212FA46B00364827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1E24C4F9492C621DD7E6E99 /* Pods-LEETimeLine.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = LEETimeLine/PrefixHeader.pch;
+				INFOPLIST_FILE = LEETimeLine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiguaF.com.LEETimeLine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F29AD07212FA46B00364827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16D6EB16742A396715C5E924 /* Pods-LEETimeLine.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = LEETimeLine/PrefixHeader.pch;
+				INFOPLIST_FILE = LEETimeLine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiguaF.com.LEETimeLine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F29AD09212FA46B00364827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LEETimeLineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiguaF.com.LEETimeLineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LEETimeLine.app/LEETimeLine";
+			};
+			name = Debug;
+		};
+		2F29AD0A212FA46B00364827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LEETimeLineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiguaF.com.LEETimeLineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LEETimeLine.app/LEETimeLine";
+			};
+			name = Release;
+		};
+		2F29AD0C212FA46B00364827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LEETimeLineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiguaF.com.LEETimeLineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LEETimeLine;
+			};
+			name = Debug;
+		};
+		2F29AD0D212FA46B00364827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LEETimeLineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiguaF.com.LEETimeLineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LEETimeLine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F29ACD4212FA46500364827 /* Build configuration list for PBXProject "LEETimeLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F29AD03212FA46B00364827 /* Debug */,
+				2F29AD04212FA46B00364827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F29AD05212FA46B00364827 /* Build configuration list for PBXNativeTarget "LEETimeLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F29AD06212FA46B00364827 /* Debug */,
+				2F29AD07212FA46B00364827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F29AD08212FA46B00364827 /* Build configuration list for PBXNativeTarget "LEETimeLineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F29AD09212FA46B00364827 /* Debug */,
+				2F29AD0A212FA46B00364827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F29AD0B212FA46B00364827 /* Build configuration list for PBXNativeTarget "LEETimeLineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F29AD0C212FA46B00364827 /* Debug */,
+				2F29AD0D212FA46B00364827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F29ACD1212FA46500364827 /* Project object */;
+}
